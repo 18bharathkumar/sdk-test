@@ -1,0 +1,22 @@
+{
+  "name": "sdk-test-ts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@saros-finance/dlmm-sdk": "^1.4.0",
+    "@types/bn.js": "^5.2.0",
+    "@types/dotenv": "^8.2.3",
+    "axios": "^1.12.2",
+    "bn.js": "^5.2.2",
+    "dotenv": "^17.2.1"
+  }
+}
